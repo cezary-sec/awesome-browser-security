@@ -5,7 +5,7 @@ A curated list of awesome browser security learning material.
 
 The overarching goal of this document is to provide a list of materials to consume to get a good understanding of browser security. 
 
-Contributions are welcome. 
+Contributions are welcome. Please file one PR per change. 
 
 ### In scope
 
@@ -24,7 +24,6 @@ Contributions are welcome.
 * Important research papers. 
 
 ## 1. General introductions
-_Where to start?_
 
 * [Chromium security website](https://www.chromium.org/Home/chromium-security/) - lots of useful documents that will paint you a good picture of this highly nuanced domain. 
 * [Chrome University](https://www.youtube.com/watch?v=kNzoswFIU9M&list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx) (2019) - YT playlist of introductory talks on various aspects of Chromium development. Talks on security, browser's anatomy, mojo, and browser's process are must-have. 
@@ -33,7 +32,6 @@ _Where to start?_
 * _The Web Application Hacker's Handbook_ (2011) by Dafydd Stuttard - dated, but interesting. 
 
 ### White papers
-_Publicly available white papers on browser security._
 
 * [Cure53 Browser Security White Paper](https://cure53.de/browser-security-whitepaper.pdf) (2017) by [Cure53](https://cure53.de/). 
 * [X41 Browser Security White Paper](https://browser-security.x41-dsec.de/X41-Browser-Security-White-Paper.pdf) (2017) by [X41 D-Sec](https://x41-dsec.de/). 
@@ -53,6 +51,9 @@ _Root cause for ~70% of browser's bugs_.
 
 * [Introduction to Chromium's memory safety](https://www.chromium.org/Home/chromium-security/memory-safety/). 
 * [Browser security YT playlist](https://www.youtube.com/playlist?list=PLa-iO6ehPFJhcRggmOu5kUv60vqF9CDOk) by Fuzzing Labs - [Patrick Ventuzelo](https://twitter.com/Pat_Ventuzelo). 
+* [V8 Sandbox - External Pointer Sandboxing](https://docs.google.com/document/d/1V3sxltuFjjhp_6grGHgfqZNK57qfzGzme0QTk0IXDHk/edit#heading=h.xzptrog8pyxf) (2022)  - new hardening measures for V8. 
+* [MiraclePtr One Pager](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit) (2021). 
+* [MiraclePtr The UaF Slayer [BlinkOn 16]](https://www.youtube.com/watch?v=WhI1NWbGvpE) (2022). 
 
 ### Spectre
 _How Spectre affected browser's security._ 
@@ -94,6 +95,12 @@ _How Spectre affected browser's security._
 * [Private Network Access](https://wicg.github.io/private-network-access/), Draft Community Group Report, 23 February 2022. 
 * [How to win at CORS](https://jakearchibald.com/2021/cors/) (2021) by [Jake Archibald](https://twitter.com/jaffathecake). 
 
-## How to stay up-to-date
+## 3. Browser exploitation
+
+* [OffensiveCon22 - Samuel Gross and Amanda Burnett - Attacking JavaScript Engines in 2022](https://www.youtube.com/watch?v=FK2-1FAbbXA) (2022). 
+* [In-the-Wild Series: Chrome Exploits](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-exploits.html) (2021) by Sergei Glazunov. 
+* [Awesome browser exploit](https://github.com/Escapingbug/awesome-browser-exploit) (last update 2020) - collection of various materials on browser exploitation. 
+
+## 4. Misc
 
 * [Web Application Security Working Group's repo](https://github.com/w3c/webappsec). 
