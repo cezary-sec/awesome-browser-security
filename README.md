@@ -50,7 +50,6 @@ Contributions are welcome. Please file one PR per change.
 _Root cause for ~70% of browser's bugs_. 
 
 * [Introduction to Chromium's memory safety](https://www.chromium.org/Home/chromium-security/memory-safety/). 
-* [Browser security YT playlist](https://www.youtube.com/playlist?list=PLa-iO6ehPFJhcRggmOu5kUv60vqF9CDOk) by Fuzzing Labs - [Patrick Ventuzelo](https://twitter.com/Pat_Ventuzelo). 
 * [V8 Sandbox - External Pointer Sandboxing](https://docs.google.com/document/d/1V3sxltuFjjhp_6grGHgfqZNK57qfzGzme0QTk0IXDHk/edit#heading=h.xzptrog8pyxf) (2022)  - new hardening measures for V8. 
 * [MiraclePtr One Pager](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit) (2021). 
 * [MiraclePtr The UaF Slayer [BlinkOn 16]](https://www.youtube.com/watch?v=WhI1NWbGvpE) (2022). 
@@ -95,9 +94,10 @@ _How Spectre affected browser's security._
 * [Private Network Access](https://wicg.github.io/private-network-access/), Draft Community Group Report, 23 February 2022. 
 * [How to win at CORS](https://jakearchibald.com/2021/cors/) (2021) by [Jake Archibald](https://twitter.com/jaffathecake). 
 
-## 3. Browser exploitation
+## 3. Attacks on browsers 
 
 * [OffensiveCon22 - Samuel Gross and Amanda Burnett - Attacking JavaScript Engines in 2022](https://www.youtube.com/watch?v=FK2-1FAbbXA) (2022). 
+* [Browser security YT playlist](https://www.youtube.com/playlist?list=PLa-iO6ehPFJhcRggmOu5kUv60vqF9CDOk) by Fuzzing Labs - [Patrick Ventuzelo](https://twitter.com/Pat_Ventuzelo). 
 * [In-the-Wild Series: Chrome Exploits](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-exploits.html) (2021) by Sergei Glazunov. 
 * [Awesome browser exploit](https://github.com/Escapingbug/awesome-browser-exploit) (last update 2020) - collection of various materials on browser exploitation. 
 
