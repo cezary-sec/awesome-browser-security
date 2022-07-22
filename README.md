@@ -22,10 +22,12 @@ Contributions are welcome. Please file one PR per change.
 * High-quality in-depth introductory materials. 
 * Source materials. 
 * Important research papers. 
+* Docs available online for free. 
 
 ## 1. General introductions
 
 * [Chromium security website](https://www.chromium.org/Home/chromium-security/) - lots of useful documents that will paint you a good picture of this highly nuanced domain. 
+* [The Security Architecture of the Chromium Browser](https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf) (2008). 
 * [Chrome University](https://www.youtube.com/watch?v=kNzoswFIU9M&list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx) (2019) - YT playlist of introductory talks on various aspects of Chromium development. Talks on security, browser's anatomy, mojo, and browser's process are must-have. 
 * [High Performance Browser Networking](https://hpbn.co/) (2013) by [Ilya Grigorik](https://twitter.com/igrigorik) - free book on browser networking. 
 * _The Tangled Web_ (2011) by [Michal Zalewski](https://twitter.com/lcamtuf) - a bit dated, but still mostly relevant. 
@@ -64,12 +66,15 @@ _How Spectre affected browser's security._
 * [CORB](https://www.chromium.org/Home/chromium-security/corb-for-developers/). 
 
 ### Transport security
+_Mitigating active and passive network attackers._
 
+* [Certificate Transparency in Google Chrome: Past, Present, and Future](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9592820) (2021). 
 * [Mixed content](https://www.w3.org/TR/mixed-content/), W3C Candidate Recommendation Draft, 4 October 2021. 
 * [Subresource Integrity](https://www.w3.org/TR/SRI/), W3C Recommendation 23 June 2016. 
 * [Upgrade Insecure Requests](https://www.w3.org/TR/upgrade-insecure-requests/), W3C Candidate Recommendation, 8 October 2015. 
 
 ### Cross Site Scripting (XSS)
+_Attacks on the integrity of JavaScript code._
 
 * [Cross-site scripting](https://portswigger.net/web-security/cross-site-scripting) - good introduction to the problem. 
 * [Content Security Policy 1.0](https://www.w3.org/TR/CSP1/), W3C Working Group Note 19 February 2015. 
@@ -78,23 +83,38 @@ _How Spectre affected browser's security._
 * [HTML Sanitizer API](https://wicg.github.io/sanitizer-api/), Draft Community Group Report, 13 July 2022. 
 
 ### Cross Site Request Forgery (CSRF)
+_Abusing cookie-based session management to forge requests._
 
 * [Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf) - good introduction to the problem. 
 * [RFC6265bis Cookies: HTTP State Management Mechanism](https://datatracker.ietf.org/doc/draft-ietf-httpbis-rfc6265bis/) - particularly section on SameSite attribute. 
 
 ### Cross Site Leaks (XS-Leaks)
+_Using side channels to leak bits of data cross-site._
 
-* [xsleaks.dev](xsleaks.dev). 
+* [xsleaks.dev](xsleaks.dev) - one stop shop for XS-Leaks. 
 * [COOP and COEP sections in the HTML Living Standard](https://html.spec.whatwg.org/multipage/origin.html). 
 * [XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers](https://xsinator.com/paper.pdf). 
 * [Fantastic Timers and Where to Find Them: High-Resolution Microarchitectural Attacks in JavaScript](https://gruss.cc/files/fantastictimers.pdf). 
 
+### Extensions
+_Security of the extension ecosystem._
+
+* [An Evaluation of the Google Chrome Extension Security Architecture](https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final177_0.pdf) (2012). 
+* [Cursed Chrome](https://github.com/mandatoryprogrammer/CursedChrome) - a Chrome-extension implant that turns victim Chrome browsers into fully-functional HTTP proxies. By using the proxies this tool creates you can browse the web authenticated as your victim for all of their websites. 
+
+### URL bar security
+_Users must know which website is displayed._
+
+* [Internationalized Domain Names (IDN) in Google Chrome](https://chromium.googlesource.com/chromium/src/+/main/docs/idn.md). 
+
 ### Private Network Access
+_Abusing browsers to attack private networks._
 
 * [Private Network Access](https://wicg.github.io/private-network-access/), Draft Community Group Report, 23 February 2022. 
 * [How to win at CORS](https://jakearchibald.com/2021/cors/) (2021) by [Jake Archibald](https://twitter.com/jaffathecake). 
 
 ## 3. Attacks on browsers 
+_Offensive work on browser exploitation._
 
 * [OffensiveCon22 - Samuel Gross and Amanda Burnett - Attacking JavaScript Engines in 2022](https://www.youtube.com/watch?v=FK2-1FAbbXA) (2022). 
 * [Browser security YT playlist](https://www.youtube.com/playlist?list=PLa-iO6ehPFJhcRggmOu5kUv60vqF9CDOk) by Fuzzing Labs - [Patrick Ventuzelo](https://twitter.com/Pat_Ventuzelo). 
