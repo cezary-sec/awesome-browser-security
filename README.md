@@ -55,6 +55,7 @@ _Root cause for ~70% of browser's bugs_.
 * [V8 Sandbox - External Pointer Sandboxing](https://docs.google.com/document/d/1V3sxltuFjjhp_6grGHgfqZNK57qfzGzme0QTk0IXDHk/edit#heading=h.xzptrog8pyxf) (2022)  - new hardening measures for V8. 
 * [MiraclePtr One Pager](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit) (2021). 
 * [MiraclePtr The UaF Slayer [BlinkOn 16]](https://www.youtube.com/watch?v=WhI1NWbGvpE) (2022). 
+* [Retrofitting Temporal Memory Safety on C++](https://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html) (2022). 
 
 ### Spectre
 _How Spectre affected browser's security._ 
