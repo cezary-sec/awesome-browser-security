@@ -19,7 +19,7 @@ Contributions are welcome. Please file one PR per change.
 
 ### Preferred sources
 
-* High-quality in-depth introductory materials. 
+* High-quality, in-depth introductory materials. 
 * Source materials. 
 * Important research papers. 
 * Docs available online for free. 
@@ -33,17 +33,20 @@ Contributions are welcome. Please file one PR per change.
 * _The Tangled Web_ (2011) by [Michal Zalewski](https://twitter.com/lcamtuf) - a bit dated, but still mostly relevant. 
 * _The Web Application Hacker's Handbook_ (2011) by Dafydd Stuttard - dated, but interesting. 
 
-### White papers
+### Security assessments
+_Publicly available security assessments of browsers._
 
 * [Cure53 Browser Security White Paper](https://cure53.de/browser-security-whitepaper.pdf) (2017) by [Cure53](https://cure53.de/). 
 * [X41 Browser Security White Paper](https://browser-security.x41-dsec.de/X41-Browser-Security-White-Paper.pdf) (2017) by [X41 D-Sec](https://x41-dsec.de/). 
 
 ### Key concepts
+_Formal definitions, known issues, state-of-the-art._
 
 * [Public Suffix List (PSL)](https://publicsuffix.org/learn/) - what PSL is and what are its known use cases. 
 * [Public Suffix List Problems](https://github.com/sleevi/psl-problems) (2019) by [Ryan Sleevi](https://twitter.com/sleevi_) - excellent article on why PSL should be discontinued. 
-* [RFC6454 The Web Origin Concept](https://datatracker.ietf.org/doc/html/rfc6454). 
-* [RFC6265bis Cookies: HTTP State Management Mechanism](https://datatracker.ietf.org/doc/draft-ietf-httpbis-rfc6265bis/). 
+* [RFC6454] Barth, A., "The Web Origin Concept", RFC 6454, DOI 10.17487/RFC6454, December 2011, <https://www.rfc-editor.org/info/rfc6454>.
+* [RFC6265] Barth, A., "HTTP State Management Mechanism", RFC 6265, DOI 10.17487/RFC6265, April 2011, <https://www.rfc-editor.org/info/rfc6265>.
+* [RFC6265bis] Chen, L., Englehardt, S., West, M., Wilander, J., "Cookies: HTTP State Management Mechanism", <https://datatracker.ietf.org/doc/draft-ietf-httpbis-rfc6265bis/>. 
 * [HTTP State Tokens](https://mikewest.github.io/http-state-tokens/draft-west-http-state-tokens.html) - interesting statement on the tragedy of cookies and how it could be solved. 
 
 ## 2. Security challenges and corresponding mitigations
@@ -87,12 +90,12 @@ _Attacks on the integrity of JavaScript code._
 _Abusing cookie-based session management to forge requests._
 
 * [Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf) - good introduction to the problem. 
-* [RFC6265bis Cookies: HTTP State Management Mechanism](https://datatracker.ietf.org/doc/draft-ietf-httpbis-rfc6265bis/) - particularly section on SameSite attribute. 
+* [RFC6265bis] Chen, L., Englehardt, S., West, M., Wilander, J., "Cookies: HTTP State Management Mechanism", <https://datatracker.ietf.org/doc/draft-ietf-httpbis-rfc6265bis/> - particularly section on SameSite attribute. 
 
 ### Cross Site Leaks (XS-Leaks)
 _Using side channels to leak bits of data cross-site._
 
-* [xsleaks.dev](xsleaks.dev) - one stop shop for XS-Leaks. 
+* [xsleaks.dev](https://xsleaks.dev) - one stop shop for XS-Leaks. 
 * [COOP and COEP sections in the HTML Living Standard](https://html.spec.whatwg.org/multipage/origin.html). 
 * [XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers](https://xsinator.com/paper.pdf). 
 * [Fantastic Timers and Where to Find Them: High-Resolution Microarchitectural Attacks in JavaScript](https://gruss.cc/files/fantastictimers.pdf). 
@@ -115,7 +118,7 @@ _Abusing browsers to attack private networks._
 * [How to win at CORS](https://jakearchibald.com/2021/cors/) (2021) by [Jake Archibald](https://twitter.com/jaffathecake). 
 
 ## 3. Attacks on browsers 
-_Offensive work on browser exploitation._
+_Fuzzing and browser exploitation._
 
 * [OffensiveCon22 - Samuel Gross and Amanda Burnett - Attacking JavaScript Engines in 2022](https://www.youtube.com/watch?v=FK2-1FAbbXA) (2022). 
 * [Browser security YT playlist](https://www.youtube.com/playlist?list=PLa-iO6ehPFJhcRggmOu5kUv60vqF9CDOk) by Fuzzing Labs - [Patrick Ventuzelo](https://twitter.com/Pat_Ventuzelo). 
