@@ -25,14 +25,20 @@ Contributions are welcome. Please file one PR per change.
 * Docs available online for free. 
 
 ## 1. General introductions
+_Good starting points._
 
 * [Chromium security website](https://www.chromium.org/Home/chromium-security/) - lots of useful documents that will paint you a good picture of this highly nuanced domain. 
-* [The Security Architecture of the Chromium Browser](https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf) (2008). 
 * [Chrome University](https://www.youtube.com/watch?v=kNzoswFIU9M&list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx) (2019) - YT playlist of introductory talks on various aspects of Chromium development. Talks on security, browser's anatomy, mojo, and browser's process are must-have. 
 * [Web Browser Engineering](https://browser.engineering/) by [Pavel Panchekha](https://pavpanchekha.com/) & [Chris Harrelson](https://twitter.com/chrishtr). 
 * [High Performance Browser Networking](https://hpbn.co/) (2013) by [Ilya Grigorik](https://twitter.com/igrigorik) - free book on browser networking. 
 * _The Tangled Web_ (2011) by [Michal Zalewski](https://twitter.com/lcamtuf) - a bit dated, but still mostly relevant. 
 * _The Web Application Hacker's Handbook_ (2011) by Dafydd Stuttard - dated, but interesting. 
+
+### Architecture
+_How browser's architecture supports security._
+
+* [The Security Architecture of the Chromium Browser](https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf) (2008). 
+* [Mojo](https://chromium.googlesource.com/chromium/src.git/+/master/mojo/README.md). 
 
 ### Security assessments
 _Publicly available security assessments of browsers._
@@ -59,6 +65,8 @@ _Root cause for ~70% of browser's bugs_.
 * [V8 Sandbox - External Pointer Sandboxing](https://docs.google.com/document/d/1V3sxltuFjjhp_6grGHgfqZNK57qfzGzme0QTk0IXDHk/edit#heading=h.xzptrog8pyxf) (2022)  - new hardening measures for V8. 
 * [MiraclePtr One Pager](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit) (2021). 
 * [MiraclePtr The UaF Slayer [BlinkOn 16]](https://www.youtube.com/watch?v=WhI1NWbGvpE) (2022). 
+* [PartitionAlloc Design](https://chromium.googlesource.com/chromium/src/+/master/base/allocator/partition_allocator/PartitionAlloc.md). 
+* [Experimenting with Rust in Chromium](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/security/rust-toolchain.md). 
 * [Retrofitting Temporal Memory Safety on C++](https://security.googleblog.com/2022/05/retrofitting-temporal-memory-safety-on-c.html) (2022). 
 
 ### Spectre
@@ -133,3 +141,4 @@ _Fuzzing and browser exploitation._
 ## 5. Contributors
 
 * [Diego Porras](https://www.linkedin.com/in/daporras/). 
+* Łukasz Bendig. 
