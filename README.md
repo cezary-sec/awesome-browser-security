@@ -29,6 +29,7 @@ Contributions are welcome. Please file one PR per change.
 * [Chromium security website](https://www.chromium.org/Home/chromium-security/) - lots of useful documents that will paint you a good picture of this highly nuanced domain. 
 * [The Security Architecture of the Chromium Browser](https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf) (2008). 
 * [Chrome University](https://www.youtube.com/watch?v=kNzoswFIU9M&list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx) (2019) - YT playlist of introductory talks on various aspects of Chromium development. Talks on security, browser's anatomy, mojo, and browser's process are must-have. 
+* [Web Browser Engineering](https://browser.engineering/) by [Pavel Panchekha](https://pavpanchekha.com/) & [Chris Harrelson](https://twitter.com/chrishtr). 
 * [High Performance Browser Networking](https://hpbn.co/) (2013) by [Ilya Grigorik](https://twitter.com/igrigorik) - free book on browser networking. 
 * _The Tangled Web_ (2011) by [Michal Zalewski](https://twitter.com/lcamtuf) - a bit dated, but still mostly relevant. 
 * _The Web Application Hacker's Handbook_ (2011) by Dafydd Stuttard - dated, but interesting. 
@@ -128,3 +129,7 @@ _Fuzzing and browser exploitation._
 ## 4. Misc
 
 * [Web Application Security Working Group's repo](https://github.com/w3c/webappsec). 
+
+## 5. Contributors
+
+* [Diego Porras](https://www.linkedin.com/in/daporras/). 
