@@ -137,6 +137,7 @@ _Fuzzing and browser exploitation._
 ## 4. Misc
 
 * [Web Application Security Working Group's repo](https://github.com/w3c/webappsec). 
+* [Browser security research](https://github.com/security-prince/Browser-Security-Research/). 
 
 ## 5. Contributors
 
