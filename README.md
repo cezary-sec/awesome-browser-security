@@ -129,6 +129,7 @@ _Abusing browsers to attack private networks._
 ## 3. Attacks on browsers 
 _Fuzzing and browser exploitation._
 
+* [Chrome Browser Exploitation, Part 1: Introduction to V8 and JavaScript Internals](https://jhalon.github.io/chrome-browser-exploitation-1/) (2022) by [Jack Halon](https://twitter.com/jack_halon). 
 * [OffensiveCon22 - Samuel Gross and Amanda Burnett - Attacking JavaScript Engines in 2022](https://www.youtube.com/watch?v=FK2-1FAbbXA) (2022). 
 * [Browser security YT playlist](https://www.youtube.com/playlist?list=PLa-iO6ehPFJhcRggmOu5kUv60vqF9CDOk) by Fuzzing Labs - [Patrick Ventuzelo](https://twitter.com/Pat_Ventuzelo). 
 * [In-the-Wild Series: Chrome Exploits](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-exploits.html) (2021) by Sergei Glazunov. 
