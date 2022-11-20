@@ -130,6 +130,7 @@ _Abusing browsers to attack private networks._
 _Fuzzing and browser exploitation._
 
 * [Chrome Browser Exploitation, Part 1: Introduction to V8 and JavaScript Internals](https://jhalon.github.io/chrome-browser-exploitation-1/) (2022) by [Jack Halon](https://twitter.com/jack_halon). 
+* [Chrome Browser Exploitation, Part 2: Introduction to Ignition, Sparkplug and JIT Compilation via TurboFan](https://jhalon.github.io/chrome-browser-exploitation-2/) (2022) by [Jack Halon](https://twitter.com/jack_halon). 
 * [OffensiveCon22 - Samuel Gross and Amanda Burnett - Attacking JavaScript Engines in 2022](https://www.youtube.com/watch?v=FK2-1FAbbXA) (2022). 
 * [Browser security YT playlist](https://www.youtube.com/playlist?list=PLa-iO6ehPFJhcRggmOu5kUv60vqF9CDOk) by Fuzzing Labs - [Patrick Ventuzelo](https://twitter.com/Pat_Ventuzelo). 
 * [In-the-Wild Series: Chrome Exploits](https://googleprojectzero.blogspot.com/2021/01/in-wild-series-chrome-exploits.html) (2021) by Sergei Glazunov. 
@@ -137,6 +138,7 @@ _Fuzzing and browser exploitation._
 
 ## 4. Misc
 
+* Series on the history of front-end security. [Part 1. The Same Origin Policy](https://www.youtube.com/watch?v=bSJm8-zJTzQ), [Part 2. The Three JavaScript Hacking Legends](https://www.youtube.com/watch?v=VtcA58555lY), [Part 3. The Age of Universal XSS](https://www.youtube.com/watch?v=gVblb-QhZa4) by [LiveOverflow](https://twitter.com/LiveOverflow). 
 * [Web Application Security Working Group's repo](https://github.com/w3c/webappsec). 
 * [Browser security research](https://github.com/security-prince/Browser-Security-Research/). 
 
